@@ -49,7 +49,7 @@ export default {
         <FlavorText :text=data.text />
       </div>
       <div id="guess-container">
-        <GuessForm :solution=data.name @result="processResult" />
+        <GuessForm :solution=data.name :choices=choices @result="processResult" />
       </div>
     </div>
     <div v-if="!guessing"><p>{{ correct }}</p></div>
