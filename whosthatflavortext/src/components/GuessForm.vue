@@ -98,9 +98,9 @@ export default defineComponent({
 
 <style>
 .autocomplete {
-  /*the container must be positioned relative:*/
   position: relative;
   display: inline-block;
+  background: white;
 }
 
 
